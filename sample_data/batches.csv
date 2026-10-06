@@ -1,0 +1,5 @@
+batch_id,product,material,standard_price,actual_price,standard_qty,actual_qty,standard_yield_ratio,standard_cost_per_output,actual_output
+B-001,Oat Granola 500g,Rolled Oats,0.80,0.85,200,210,0.92,1.20,230
+B-001,Oat Granola 500g,Honey,3.50,3.40,40,42,0.92,1.20,230
+B-002,Fruit Muesli 750g,Rolled Oats,0.80,0.82,150,148,0.90,1.55,185
+B-002,Fruit Muesli 750g,Dried Fruit,2.10,2.25,60,65,0.90,1.55,185
