@@ -2,7 +2,6 @@
 
 A clean, tested reference implementation of **CIMA standard-cost variance analysis** (price, usage, and yield variances) for manufacturing batch data.
 
-[![CI](https://github.com/czarnf/margin-variance-kit/actions/workflows/ci.yml/badge.svg)](https://github.com/czarnf/margin-variance-kit/actions/workflows/ci.yml)
 [![Python](https://img.shields.io/badge/python-3.10%2B-blue.svg)](https://www.python.org/)
 [![License: MIT](https://img.shields.io/badge/license-MIT-green.svg)](LICENSE)
 
@@ -98,7 +97,7 @@ pytest          # unit tests for the formulas, the CSV loader, and the CLI
 ruff check src/ tests/
 ```
 
-CI runs the suite and the linter on Python 3.10, 3.11, and 3.12 (badge above).
+CI is configured (`.github/workflows/ci.yml`) to run the suite and the linter on Python 3.10, 3.11, and 3.12.
 
 ## Scope
 
